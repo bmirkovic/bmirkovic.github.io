@@ -411,6 +411,7 @@ p:last-child { margin-bottom: 0; }
 	#s1_mpic {
 		max-width:90px;
 		max-height: 90px;
+		align="middle";
 
 	}
 	
@@ -426,8 +427,8 @@ p:last-child { margin-bottom: 0; }
 	font-size: 0.8rem;
 	line-height: 1.4;
 	margin-left: 16px;
-
-}
+	}
+	
 }
 
 /* 	
