@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title>Bojana Mirkovic</title>
+		
+		<!--Styles-->
+		<link rel="stylesheet" type="text/css" href="css/bm_desc2.css"/>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400">  <!-- Google web font "Open Sans" -->
+		<link rel="stylesheet" href="webfonts/icofont/icofont.min.css">
+		
+		<!--Check browser-->
+		<script>
+			var renderPage = true;
+
+			if(navigator.userAgent.indexOf('MSIE')!==-1 || navigator.appVersion.indexOf('Trident/') > 0){
+				/* Microsoft Internet Explorer detected in. */
+				alert("Please view this in a modern browser such as Chrome or Microsoft Edge.");
+				renderPage = false;
+			}
+		</script>
+	</head>
+
+
+<body>
+	
+	<div class="tm-main">
+		<div class="tm-main-row">
+			<!-- Sidebar -->
+			
+			<div id="tmSideBar" class="sidebar">
+
+				<button id="tmMainNavToggle" class="menu-icon" onclick="ToggleSideBar()">&#9776;</button>
+
+				<div id="inner">
+					<nav id="tmMainNav" class="tm-main-nav">
+						<ul>
+							<li>
+								<a href="#about" class="page-links" onclick="changePage(1)">
+									<span>About me</span>
+								</a>
+							</li>
+							<li>
+								<a href="#notice" class="page-links" onclick="changePage(2)">
+									<span>Notice board</span>
+								</a>
+							</li>							
+							<li>
+								<a href="#projects" class="page-links" onclick="changePage(3)">
+									<span>Projects</span>
+								</a>
+							</li>
+							<li>
+								<a href="#publications" class="page-links" onclick="changePage(4)">
+									<span>Publications</span>
+								</a>
+							</li>
+							<li class="list-icon">
+								<a href="https://twitter.com/bmirkovlc?lang=en" target="_blank" rel="noopener noreferrer" class="cnct-icons" ><i class="icofont-twitter"></i> </a>
+							</li>
+							<li class="list-icon">
+								<a href="https://de.linkedin.com/in/bojana-mirkovic-439bb665s" target="_blank" rel="noopener noreferrer" class="cnct-icons" > <i class="icofont-linkedin"></i></a>
+							</li>
+							<li class="list-icon">
+								<a href="https://www.xing.com/profile/Bojana_Mirkovic" target="_blank" rel="noopener noreferrer" class="cnct-icons" ><i class="icofont-xing"></i></a>
+							</li>
+							<li class="list-icon">
+								<a href="https://github.com/bmirkovic" target="_blank" rel="noopener noreferrer" class="cnct-icons" ><i class="icofont-github"></i>	</a>
+							</li>
+							<li class="list-icon">
+								<a href="mailto: bojana.mirkovic@uni-oldenburg.de" target="_blank" rel="noopener noreferrer" class="cnct-icons" ><i class="icofont-envelope"></i></a>
+							</li>
+							
+						</ul>
+					</nav>					
+				</div>
+				
+			</div>
+			
+			<!-- Content-->
+			<div class="tm-content">
+				
+				<!-- section 0 -->
+				<section id="tm-section-0" class="tm-section">
+					<div class="ml-auto">
+						<header class="mb-4"> 
+							<h1 class="head0">Bojana Mirkovic</h1>
+						</header>			
+						<p class="title0">Bojana Mirkovic</p>						
+						<p class="title0_small">Dr.rer.nat</p>
+						<p class="title0_small">Neuroscientist, Postdoctoral researcher</p>
+					</div>
+				</section>
+				
+				<!-- section 1 - About me-->
+				<section id="tm-section-1" class="tm-section">
+					<div class="ml-auto">
+						<header>
+							<h1 class="title">About me</h1>
+						</header>
+						<div id='sec1_1'>
+
+							<img id="s1_mpic" src="img/bm_pic.jpg" alt="HTML5 Icon"></img>
+
+							<div class='s1_contact'> 
+								<p class="paper"><b>Bojana Mirkovic (Dr.rer.nat)</b></p>
+								<p class="paper">Neuropsychology Lab</p>
+								<p class="paper">Department of Psychology</p>
+								<p class="paper">University of Oldenburg (Germany)</p>
+								<p class="paper">Email: <a href="mailto: bojana.mirkovic@uni-oldenburg.de" target="_blank" rel="noopener noreferrer" class="doiLink" >bojana.mirkovic@uni-oldenburg.de</a></p>
+							</div>
+						</div>
+						<div id='sec1_2'>
+								<p class="paper">I am a postdoctoral researcher in <a href="https://uol.de/neuropsychologie" target="_blank" rel="noopener noreferrer" class="doiLink" >Neuropsychology Lab</a>,
+								working with Stefan Debener. 
+								
+								I received the B.Eng degree in electrical engineering and M.Eng degree in biomedical and ecology engineering from <a href="https://www.etf.bg.ac.rs/" target="_blank" rel="noopener noreferrer" class="doiLink" >School of Electrical Engineering</a> , University of Belgrade (Serbia). After briefly working at mBrainTrain, a developer of mobile EEG amplifiers, I joined the Neuropsychology Lab in Oldenburg (Germany) to pursue my interest in developing methods for neuro-steered hearing-devices and EEG-assisted hearables. My general work has double focus:</p>
+								<p class="paper"> 1) <b> Mobile EEG</b>. 
+								 Mobility and every-day unobstructed use is one of the main features that users of any hearable device need. For neuro-steered hearables this means that EEG hardware needs to be unobtrusive and near-invisible, whereas acquired neural signals remain robust and reliable. Designing such mobile EEG systems requires solid understanding of neural processing in ecological, real-life situations on top of understanding basic neural processes that can be observed in labs. I work on designing and implementing mobile EEG setups that provide research-grade EEG data for a variety of real-life application, as well as for neural research that transcends constrained laboratory conditions. Furthermore, EEG processing algorithms that can ideally be applied on smartphones - devices with substantial processing power that we all carry at all times- is of great importance to me.</p>
+								<p class="paper"> 2) <b>Auditory attention in real life</b>. In real life we are emersed in a very complex auditory scene. There is an abundance of sounds all around us, some important to us, some irrelevant and distracting. This situation is very different from the one presented to participants in traditional laboratory research studies, where sounds are most often very short and are presented in silent room devoid of other distracting features. Whereas in these traditional studies we can investigate the basic principles of auditory attention via event-related potentials (ERPs), for continuous natural auditory scenes we can now use different machine learning techniques to track listener's attention to various sound sources - auditory attention decoding (AAD). I use the combination of both of these approaches to investigate auditory attention in naturalistic situations recreated in laboratory as well as in real life, outside of the lab.  
+								</p>
+								
+							
+						</div>
+					</div>
+				</section>
+				
+				<!-- section 2 -Notice board-->
+				<section id="tm-section-2" class="tm-section">
+					<div>
+						<header>
+							<h2 class="title">Notice board</h2>
+						</header>	
+						<p class="NewsDate">28.06.2021</p>
+						<p class="paper"> Together with Stefan Debener and Martin Bleichner of the university of Oldenburg, I am organizing two workshops, one on Smartphone EEG and another one on around-the-ear EEG. Both workshops will take place as a part of Neuroergonomics conference in September. Join us to find out more about mobile-EEG setups, recordings outdoors and  how to acquire reliable mobile-EEG data for new generation research and BCI applications. </p>
+						<p class="paper">11.09.2021 (Saturday) -Ear-EEG for reliable brain research in everyday life</p>
+						<p class="paper">12.09.2021 (Sunday) -Smartphone EEG: Recording data out and about</p>
+						<p class="NewsDate">10.05.2021</p>
+						<p class="paper"> I will give a short symposium talk on the topic: "EEG insights into neural tracking of target and distractor streams in continuous, naturalistic auditory scenes" at Psychologie und Gehirn 2021 online conference. 
+						The talk will be a part of a very interesting symposium "Up- and down-tuning in attention: neuro-cognitive mechanisms of target selection and distractor suppression"organized by Malte Wöstmann.
+						Conference participants are welcome to join the online symposium on June 4th at 14:45.	</p>						
+						<p class="NewsDate">22.03.2021</p>
+						<p class="paper"> Our new paper is out now. Does hearing your name distract you from listening to an audiobook? 
+						Find out <a href="https://www.frontiersin.org/articles/10.3389/fnins.2021.643705/full" target="_blank" rel="noopener noreferrer" class="doiLink" >here</a> how we can detect this distraction with EEG.
+						</p>
+					</div>       		          	
+				</section>
+				
+				<!-- section 3 -projects-->
+				<section id="tm-section-3" class="tm-section">
+				<div class="ProjectDiv">
+									
+					<img class="s3_pic" src="img/Logo_sal.png" alt="HTML5 Icon"></img>
+					<div class="ProjectDesc"> 
+						<p class="ProjectTitle">Neural underpinnings of bottom-up and top-down auditory attention in real-life environments</p>	
+						<p class="ProjectTxt"><i>Funded by Deutsche Forschungsgemeinschaft (DFG)</i></p>
+						<p class="ProjectTxt">Loud, salient sounds occur constantly in every-day life. On one hand, paying attention to a lecturer is that much harder if there is a bird chirping in the window, a plane flying by, or another person talking in vicinity. On the other hand, some salient sounds are useful to us, they direct our attention to important events and keep us safe - a car horn, a triggered alarm, another person clapping. This project attempts to answer how these salient events are perceived by a listener, how they influence listener's attention. Neural correlates of distracting events can then be used to direct a brain-computer interface- for example, to warn the listener of unperceived, important events or in case of hearing devices to attenuate distracting, irrelevant sounds and reduce listening effort.</p>
+						<p class="ProjectTxt">Find out more  <a href="https://gepris.dfg.de/gepris/projekt/432063183?language=en" target="_blank" rel="noopener noreferrer" class="doiLink" >here</a>.</p> 	
+					</div> 						
+				</div> 	
+				
+				<div class="ProjectDiv">
+					<img class="s3_pic" src="img/Logo_audictive.png" alt="HTML5 Icon"></img>
+					<div class="ProjectDesc"> 
+						<p class="ProjectTitle">Influence of visual cues in interactive audiovisual virtual environments on auditory attention decoding and cortical tracking of speech </p>	
+						<p class="ProjectTxt"><i>Funded by Deutsche Forschungsgemeinschaft (DFG)-Priority Programme 'Auditory Cognition in Interactive Virtual Environments – AUDICTIVE' </i></p>
+						<p class="ProjectTxt">During a conversation, or while listening to a debate, we heavily rely on visual cues to guide our attention – lip movements, head turning, gesticulation. How important are these cues for maintaining our attention? Does that change if we are active participants in conversation? This project addresses these questions by analysing EEG recorded while listening to a conversation in an audio-visual virtual environment. Furthermore, using neural correlates of attention we measure how immersive virtual environments are compared to real scenes and if and how participant's experience with virtual avatars defers from interactions with real people. </p>
+						<p class="ProjectTxt">Find out more  <a href="http://www.spp2236-audictive.de/Abstract-8.html" target="_blank" rel="noopener noreferrer" class="doiLink" >here</a>.</p> 
+					</div> 					
+				</div> 	
+				
+				<div class="ProjectDiv">			
+					<img class="s3_pic" src="img/Logo_cEEGrid.png" alt="HTML5 Icon"></img>
+					<div class="ProjectDesc">
+						<p class="ProjectTitle">Around-the-ear EEG for auditory attention decoding</p>	
+						<p class="ProjectTxt">Around-the-ear EEG is a comfortable, near-invisible, easy to use option for mobile EEG measurements in real life. It consists of a mobile EEG amplifier that records data from 10 Ag/AgCl sensors placed around the ear (<a href=" https://uol.de/psychologie/abteilungen/ceegrid" target="_blank" rel="noopener noreferrer" class="doiLink" >cEEGrid</a>).  For neuro-steered hearing aids, measuring EEG around the ear is a great option, as long as the direction of auditory attention or invested listening effort can be inferred from the recorded neural signal. In this project, we explore different processing pipelines and algorithms that can be applied to EEG recorded with cEEGrids, to successfully estimate the parameters of listener's auditory attention. In the scope of this project, algorithm performance achieved with cEEGrids is also compared to the one achieved with mobile EEG cap. Furthermore, cEEGrid performance is investigated on normal-hearing listeners, listeners with hearing aids and listeners with cochlear implants.</p>		
+					</div> 								
+				</div> 		          		          	
+				</section>
+				
+				<!-- section 4 -publications-->
+				<section id="tm-section-4" class="tm-section">
+					<div>
+						<header>
+							<h2 class="title">Publications</h2>
+						</header>	
+						<p class="paper">
+							Björn Holtze, Manuela Jaeger, Stefan Debener, Kamil Adiloğlu, <b>Bojana Mirkovic</b>
+							(2021)
+							"Are They Calling My Name? Attention Capture Is Reflected in the Neural Tracking of Attended and Ignored Speech."
+							 <i>Frontiers in neuroscience, 15.</i>
+							 doi: <a href="https://www.frontiersin.org/articles/10.3389/fnins.2021.643705/full" target="_blank" rel="noopener noreferrer" class="doiLink" >10.3389/fnins.2021.643705</a>
+						</p>	
+						<p class="paper">
+							 Manuela Jaeger, <b>Bojana Mirkovic</b>, Martin G Bleichner, Stefan Debener
+							(2020)
+							"Decoding the Attended Speaker From EEG Using Adaptive Evaluation Intervals Captures Fluctuations in Attentional Listening."
+							 <i>Frontiers in neuroscience, 15.</i>
+							 doi: <a href="https://www.frontiersin.org/articles/10.3389/fnins.2020.00603/full" target="_blank" rel="noopener noreferrer" class="doiLink" >10.3389/fnins.2020.00603</a>
+						</p>
+						<p class="paper">
+							 Sarah Blum, <b>Bojana Mirkovic</b>, Stefan Debener
+							(2019)
+							"Evaluation of Riemannian ASR on cEEGrid data: an artifact correction method for BCIs"
+							 <i> In 2019 IEEE International Conference on Systems, Man and Cybernetics (SMC) (pp. 3625-3630).</i>
+							 doi: <a href="https://ieeexplore.ieee.org/abstract/document/8914319" target="_blank" rel="noopener noreferrer" class="doiLink" >10.1109/SMC.2019.8914319</a>
+						</p>
+						<p class="paper">
+							 Tobias de Taillez, Florian Denk, <b>Bojana Mirkovic</b>, Birger Kollmeier, Bernd Meyer
+							(2019)
+							"Modeling Nonlinear Transfer Functions from Speech Envelopes to Encephalography with Neural Networks"
+							 <i> International Journal of Psychological Studies. </i>
+							 doi: <a href="http://www.ccsenet.org/journal/index.php/ijps/article/view/0/40409" target="_blank" rel="noopener noreferrer" class="doiLink" >10.5539/ijps.v11n4p1</a>
+						</p>	
+						<p class="paper">
+							 Sebastian Puschmann, Mareike Daeglau, Maren Stropahl,<b>Bojana Mirkovic</b>,  Stephanie Rosemann, Christiane M Thiel, Stefan Debener
+							(2019)
+							"Hearing-impaired listeners show increased audiovisual benefit when listening to speech in noise"
+							 <i> Neuroimage, 196, 261-268.</i>
+							 doi: <a href="https://www.sciencedirect.com/science/article/abs/pii/S1053811919303039?via%3Dihub" target="_blank" rel="noopener noreferrer" class="doiLink" >10.1016/j.neuroimage.2019.04.017</a>
+						</p>	
+						<p class="paper">
+							 <b>Bojana Mirkovic</b>,  Stefan Debener, Julia Schmidt, Manuela Jaeger, Tobias Neher
+							(2019)
+							"Effects of directional sound processing and listener's motivation on EEG responses to continuous noisy speech: Do normal-hearing and aided hearing-impaired listeners differ?"
+							 <i> Hearing research, 377, 260-270. </i>
+							 doi: <a href="https://www.sciencedirect.com/science/article/abs/pii/S0378595518305471?via%3Dihub" target="_blank" rel="noopener noreferrer" class="doiLink" >10.1016/j.heares.2019.04.005</a>
+						</p>	
+						<p class="paper">
+							 Tobias Neher, <b>Bojana Mirkovic</b>,  Stefan Debener
+							(2019)
+							"Effects of directional hearing aid processing and motivation on EEG responses to continuous noisy speech"
+							 <i> Proceedings of the International Symposium on Auditory and Audiological Research, 7, 189–196. </i>
+							 Part of ISSN: <a href="https://proceedings.isaar.eu/index.php/isaarproc/article/view/2019-23" target="_blank" rel="noopener noreferrer" class="doiLink" >2596-5522</a>
+						</p>	
+						<p class="paper">
+							 Waldo Nogueira, Hanna Dolhopiatenko, Irina Schierholz, Andreas Büchner, <b>Bojana Mirkovic</b>,  Martin Georg Bleichner, Stefan Debener
+							(2019)
+							"Decoding Selective Attention in Normal Hearing Listeners and Bilateral Cochlear Implant Users With Concealed Ear EEG"
+							 <i> Frontiers in neuroscience, 13, 720. </i>
+							 doi: <a href="https://www.frontiersin.org/articles/10.3389/fnins.2019.00720/full" target="_blank" rel="noopener noreferrer" class="doiLink" >10.3389/fnins.2019.00720</a>
+						</p>	
+						<p class="paper">
+							 Ali Aroudi, <b>Bojana Mirkovic</b>,  Maarten De Vos, Simon Doclo
+							(2019)
+							"Impact of Different Acoustic Components on EEG-based Auditory Attention Decoding in Noisy and Reverberant Conditions"
+							 <i>IEEE Transactions on Neural Systems and Rehabilitation Engineering, 27(4), 652-663. </i>
+							 doi: <a href="https://ieeexplore.ieee.org/abstract/document/8662636" target="_blank" rel="noopener noreferrer" class="doiLink" > 10.1109/tnsre.2019.2903404</a>
+						</p>
+						<p class="paper">
+							 Waldo Nogueira, Giulio Cosatti, Irina Schierholz, Maria Egger, <b>Bojana Mirkovic</b>,  Andreas Büchner
+							(2019)
+							"Towards Decoding Selective Attention from Single-Trial EEG Data in Cochlear Implant Users"
+							 <i> IEEE Transactions on Biomedical Engineering 67, no. 1 (2019): 38-49. </i>
+							 doi: <a href="https://ieeexplore.ieee.org/abstract/document/8662636" target="_blank" rel="noopener noreferrer" class="doiLink" >10.1109/tbme.2019.2907638</a>
+						</p>	
+						<p class="paper">
+							 Manuela Jaeger,  Martin G. Bleichner, Anna-Katharina R. Bauer,   <b>Bojana Mirkovic</b>,  Stefan Debener
+							(2018)
+							"Did You Listen to the Beat? Auditory Steady-State Responses in the Human Electroencephalogram at 4 and 7 Hz Modulation Rates Reflect Selective Attention"
+							 <i> Brain topography, 31(5), 811-826. </i>
+							 doi: <a href="https://link.springer.com/article/10.1007/s10548-018-0637-8" target="_blank" rel="noopener noreferrer" class="doiLink" >10.1007/s10548-018-0637-8</a>
+						</p>	
+						<p class="paper">
+							Sebastian Puschmann, Simon Steinkamp, Imke Gillich,  <b>Bojana Mirkovic</b>,  Stefan Debener, Christiane M Thiel
+							(2017)
+							"The Right Temporoparietal Junction Supports Speech Tracking During Selective Listening: Evidence from Concurrent EEG-fMRI"
+							 <i> Journal of Neuroscience 37 (47), 11505-11516. </i>
+							 doi: <a href="https://www.jneurosci.org/content/37/47/11505" target="_blank" rel="noopener noreferrer" class="doiLink" >10.1523/jneurosci.1007-17.2017</a>
+						</p>		
+						<p class="paper">
+							<b>Bojana Mirkovic</b>,  Stefan Debener
+							(2016)
+							"Speech envelope tracking using around-the-ear EEG"
+							 <i> Proceeding of the 6th International Brain-Computer Interface Meeting </i>
+							 doi: <a href="https://openlib.tugraz.at/download.php?id=5e6a258e6caa2&location=browse" target="_blank" rel="noopener noreferrer" class="doiLink" >10.3217/978-3-85125-467-9-37</a>
+						</p>
+						<p class="paper">
+							Ali Aroudi, <b>Bojana Mirkovic</b>, Maarten De Vos, Simon Doclo
+							(2016)
+							"Auditory attention decoding with EEG recordings using noisy acoustic reference signals"
+							 <i> In 2016 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) (pp. 694-698). </i>
+							 doi: <a href="https://ieeexplore.ieee.org/abstract/document/7471764" target="_blank" rel="noopener noreferrer" class="doiLink" >10.1109/icassp.2016.7471764</a>
+						</p>
+						<p class="paper">
+							<b>Bojana Mirkovic</b>, Martin G. Bleichner, Maarten De Vos, Stefan Debener
+							(2016)
+							"Target Speaker Detection with Concealed EEG Around the Ear"
+							 <i> Frontiers in neuroscience, 10, 349. </i>
+							 doi: <a href="https://www.frontiersin.org/articles/10.3389/fnins.2016.00349/full" target="_blank" rel="noopener noreferrer" class="doiLink" >10.3389/fnins.2016.00349</a>
+						</p>	
+						<p class="paper">
+							Martin G. Bleichner, <b>Bojana Mirkovic</b>, Stefan Debener
+							(2016)
+							"Identifying auditory attention with ear-EEG: cEEGrid versus high-density cap-EEG comparison"
+							 <i>  Journal of neural engineering, 13(6), 066004. </i>
+							 doi: <a href="https://iopscience.iop.org/article/10.1088/1741-2560/13/6/066004" target="_blank" rel="noopener noreferrer" class="doiLink" >10.1088/1741-2560/13/6/066004</a>
+						</p>	
+						<p class="paper">
+							Ali Aroudi, <b>Bojana Mirkovic</b>,  Maarten De Vos, Simon Doclo
+							(2015)
+							"Influence of Noisy Reference Signals on Selective Attention Decoding"
+							 <i>  In Proc. Int. Conf. of the IEEE Engineering in Medicine and Biology Society (EMBC), Milan, Italy. </i>
+							 Part of doi: <a href="https://uol.de/f/6/dept/mediphysik/ag/sigproc/download/papers/SP2015_45.pdf" target="_blank" rel="noopener noreferrer" class="doiLink" >10.1109/EMBC18176.2015</a>
+						</p>
+						<p class="paper">
+							<b>Bojana Mirkovic</b>,  Stefan Debener, Manuela Jaeger, Maarten De Vos 
+							(2015)
+							"Decoding the attended speech stream with multi-channel EEG: implications for online, daily-life applications"
+							 <i>  Journal of neural engineering, 12(4), 046007. </i>
+							 doi: <a href="https://iopscience.iop.org/article/10.1088/1741-2560/12/4/046007" target="_blank" rel="noopener noreferrer" class="doiLink" >10.1088/1741-2560/12/4/046007</a>
+						</p>
+						<p class="paper">
+							<b>Bojana Mirkovic</b>, Dejan Popovic
+							(2014)
+							"Prosthetic hand sensor placement: Analysis of touch perception during the grasp."
+							 <i> Serbian Journal of Electrical Engineering, 11(1), 1-10 </i>
+							 doi: <a href="https://www.semanticscholar.org/paper/Prosthetic-Hand-Sensor-Placement%3A-Analysis-of-Touch-Mirkovic-Popovic/d624222d0076a09d6e95949f7d58171052f85584" target="_blank" rel="noopener noreferrer" class="doiLink" >10.2298/SJEE131004001M</a>
+						</p>		
+						<p class="paper">
+							<b>Bojana Mirkovic</b>, Marija Stevanovic, Andrej Savic
+							(2013)
+							"EEG Controlled NI Lego Robot: Feasibility Study of Sensorimotor Alpha Rhythm Neurofeedback in Children"
+							 <i>  Biomedical Engineering/Biomedizinische Technik, 58(SI-1-Track-G), 000010151520134161. </i>
+							 doi: <a href="https://www.degruyter.com/document/doi/10.1515/bmt-2013-4161/html" target="_blank" rel="noopener noreferrer" class="doiLink" >10.1515/bmt-2013-4161</a>
+						</p>						
+					</div>       		          	
+				</section>
+			</div>
+
+		</div>
+	</div>
+	
+		<!---->
+	<script src="js/bm_main.js"></script>
+	
+	
+	</body>
+</html>
