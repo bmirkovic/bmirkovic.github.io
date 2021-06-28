@@ -398,14 +398,14 @@ p:last-child { margin-bottom: 0; }
 
 
 @media (max-width: 767px) {
-	/* .paper { 
-	font-size: 0.6rem;}*/
+	.paper { 
+	font-size: 0.8rem;}
 	
-	/*.NewsDate	{
-	font-size: 0.6rem;
+	.NewsDate	{
+	font-size: 0.8rem;
 	line-height: 1.4; 
 	margin-top:0.7rem;
-	}  */
+	} 
 
 	
 	#s1_mpic {
