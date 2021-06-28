@@ -413,6 +413,14 @@ p:last-child { margin-bottom: 0; }
 		max-height: 100px;
 
 	}
+	
+	.s1_contact{
+	margin-left:20px;
+	}
+	
+	.ProjectTitle{
+	font-size: 0.9rem;
+	}
 }
 
 /* 	
