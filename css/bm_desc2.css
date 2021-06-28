@@ -412,6 +412,7 @@ p:last-child { margin-bottom: 0; }
 		max-width:90px;
 		max-height: 90px;
 		align: middle;
+		margin-up: 10px;
 
 	}
 	
